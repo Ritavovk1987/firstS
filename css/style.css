@@ -1,0 +1,258 @@
+*{box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 40px 40px; 
+    color: rgb(61, 4, 4); 
+}
+.container {
+    background-color: #8ac67b;
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.10);
+}
+.head {
+    max-width: 1090px;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin-bottom: 46px;
+}
+.logo{
+    display: flex;
+}
+.image-logo{
+    margin-right: 4px;
+}
+.text-logo {
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.social-link {
+    margin-left: 20px;
+}
+.main {
+    display: flex; 
+    max-width: 1090px;
+    margin: 0 auto;
+    justify-content:space-between;
+    color: black; 
+    padding-bottom:40px;
+}
+.left-column {
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 720px;  
+}
+.user-profession {
+    margin: 0;
+    color: #21406C;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.user-name {
+    margin: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+.user-descripshin {
+    margin: 0;
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 175% */
+    margin-bottom: 55px;
+}
+.feutures {
+    --animate-duration: 1.6s;
+}
+.feutures-title {
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px; /* 116.667% */
+    margin-bottom: 30px;
+}
+.feutures-block {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.feutures-item {
+    flex-basis: 50%;
+    max-width: 288px; 
+    margin-bottom: 30px; 
+}
+.feutures-imeg {
+    display: block;
+    margin-bottom: 22px;
+}
+.feuture-item-title {
+    margin: 0;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+.feutures-text {
+    margin: auto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+.projects {
+    --animate-duration: 1.8s; 
+}
+.projects-title {
+    color: #21406C;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.project-slider {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.projects-text {
+    display: flex;
+    flex-basis: 55%;
+    flex-wrap: wrap;
+}
+.projects-text-title {
+    margin: 0;
+    flex-basis: 100%; 
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 35px;
+}
+.projects-time, .projects-cost, .tech-skils-imeg {
+    flex: basis 50%;
+    display: flex;
+    align-items:flex-start;
+}
+.projects-subtitle, .projects-paragraf {
+    margin: 0;
+}
+.projects-icon {
+    margin-right: 11px;
+}
+.projects-subtitle {
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 8px;  
+}
+.projects-paragraf {
+color: #000;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 8px;
+}
+.swiper-pagination {
+    position: relative;
+    margin: 0;
+
+}
+.swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgb(219, 246, 14);
+    background-color:rgb(0, 0, 0, 0);
+    opacity: 1px;
+}
+.swiper-pagination-bullet-active {
+    background-color:rgb(35, 125, 2);  
+
+}
+.right-column {
+    border: 1px solid blueviolet;
+    background-color:rgba(7, 135, 50, 0.916);
+    width: 400px;
+}
+.avatar {
+    width: 300px;
+    height: 300px;
+    background-color:white;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 30px;
+    background-image: url('../img/зображення_viber_2023-08-05_17-30-39-936.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    border: 9px solid rgb(219, 246, 14);
+    margin-bottom: 58px;
+}
+.contact, .tech-skils {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.contact-title {
+    color: #cff609;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.contact-type {
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+}
+.contact-link {
+color: #FFF;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+opacity: 0.5;
+margin-left: 40px;
+}
+.tech-skils-list{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    margin-left: 10px;
+    
+}
